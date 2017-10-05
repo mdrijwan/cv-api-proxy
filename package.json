@@ -1,5 +1,5 @@
 {
-  "name": "cvproxy",
+  "name": "cv-proxy-api",
   "version": "1.0.0",
   "description": "proxy api for cvApi",
   "main": "app.js",
@@ -7,9 +7,15 @@
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdrijwan/cv-proxy-api"
+  },
   "keywords": [
-    "proxy",
     "api",
+    "CRUD",
+    "cv",
+    "proxy",
     "REST"
   ],
   "author": "Md RIjwan Razzaq Matin",
