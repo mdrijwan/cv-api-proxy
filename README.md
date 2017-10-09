@@ -1,4 +1,4 @@
-# cv-api-proxy
+# CV-Api-Proxy
 This is a Proxy-Api (REST API with CRUD Operation) to call the [CV-Api](https://github.com/mdrijwan/cv-api)
 
 ## Getting Started
