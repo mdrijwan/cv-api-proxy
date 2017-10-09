@@ -34,3 +34,21 @@ npm run start
 ```
 
 >For the CRUD operation, [CV-Api](https://github.com/mdrijwan/cv-api) needs to be running in order to make this Proxy-Api to be working.
+
+#### The CRUD operations
+
+***Methods***
+- GET/
+  + GET/ `(to see my CV)`
+  + GET/list `(to see the whole list of CVs)`
+  + GET/cv/cvId `(to see a specific CV)`
+ 
+- POST/
+  + POST/add `(to create a CV)`
+   
+- PUT/
+  + PUT/edit/cvId `(to update a CV)`
+  
+- DELETE/
+  + DELETE/delete `(to delete the whole list of CVs)`
+  + DELETE/delete/cvId `(to delete a specific CV)`
