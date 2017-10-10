@@ -52,3 +52,5 @@ npm run start
 - DELETE/
   + DELETE/delete `(to delete the whole list of CVs)`
   + DELETE/delete/cvId `(to delete a specific CV)`
+
+[![Build status](https://badge.buildkite.com/ce19a7b70b9eaaabfbb038e9c9e335866c20337d28e8e89c4d.svg)](https://buildkite.com/rr/cv-api-proxy)
