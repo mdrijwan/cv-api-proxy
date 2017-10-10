@@ -29,13 +29,23 @@ module.exports = function(app: any) {
     })
   })
 
-  // to see a specific cv (not working, need a fix)
-  app.get('/cv/:cvId', (req: any, res: any) =>{
-    request.get('http://localhost:3000/cv/:cvId', function (error:any, response:any, body:any) {
+  // to see a specific cv
+  app.get('/list/:cvId', (req: any, res: any) =>{
+    request.get('http://localhost:3000/cv/' + req.params.cvId, function (error:any, response:any, body:any) {
       console.log('error:', error);
       console.log('statusCode:', response && response.statusCode);
       console.log('body:', body);
       res.send(JSON.parse(body))
     })
   })
+
+    // to edit a specific cv (not being able to update, needs to be fixed)
+    app.put('/edit/:cvId', (req: any, res: any) =>{
+      request.put('http://localhost:3000/cv/' + req.params.cvId, function (error:any, response:any, body:any) {
+        console.log('error:', error);
+        console.log('statusCode:', response && response.statusCode);
+        console.log('body:', body);
+        res.send(JSON.parse(body))
+      })
+    })
 }
