@@ -27,6 +27,12 @@ Then compile the `TypeScript` files to `JavaScript`
 npm run complie
 ```
 
+To test the projct
+
+```
+npm run test
+```
+
 Then start the server and visit [http://127.0.0.1:3001/](http://127.0.0.1:3001/) to see the app in action.
 
 ```
